@@ -1,0 +1,327 @@
+
+> Task :macroutils:compileJava FAILED
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/CreateUnits.java:5: error: package star.common does not exist
+import star.common.Dimensions;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/CreateUnits.java:6: error: package star.common does not exist
+import star.common.Simulation;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/CreateUnits.java:7: error: package star.common does not exist
+import star.common.Units;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/CreateUnits.java:8: error: package star.common does not exist
+import star.common.UserUnits;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/getter/MainGetter.java:4: error: package star.common does not exist
+import star.common.Simulation;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/MacroUtils.java:19: error: package star.common does not exist
+import star.common.LabCoordinateSystem;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/MacroUtils.java:20: error: package star.common does not exist
+import star.common.Simulation;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/CreateUnits.java:21: error: cannot find symbol
+    private Simulation _sim = null;
+            ^
+  symbol:   class Simulation
+  location: class CreateUnits
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/CreateUnits.java:42: error: cannot find symbol
+    public Units custom(String name, String desc, double conv, Dimensions dim) {
+                                                               ^
+  symbol:   class Dimensions
+  location: class CreateUnits
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/CreateUnits.java:42: error: cannot find symbol
+    public Units custom(String name, String desc, double conv, Dimensions dim) {
+           ^
+  symbol:   class Units
+  location: class CreateUnits
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/CreateUnits.java:56: error: cannot find symbol
+    public Units custom(String name, String desc, double conv, Dimensions dim, boolean vo) {
+                                                               ^
+  symbol:   class Dimensions
+  location: class CreateUnits
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/CreateUnits.java:56: error: cannot find symbol
+    public Units custom(String name, String desc, double conv, Dimensions dim, boolean vo) {
+           ^
+  symbol:   class Units
+  location: class CreateUnits
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/creator/MainCreator.java:4: error: package star.common does not exist
+import star.common.ScalarGlobalParameter;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainClearer.java:5: error: package star.common does not exist
+import star.common.Comment;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainClearer.java:6: error: package star.common does not exist
+import star.common.CommentManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainClearer.java:7: error: package star.common does not exist
+import star.common.Simulation;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainClearer.java:8: error: package star.meshing does not exist
+import star.meshing.MeshPipelineController;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainCloser.java:4: error: package star.base.neo does not exist
+import star.base.neo.ClientServerObject;
+                    ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainCloser.java:5: error: package star.common does not exist
+import star.common.Simulation;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainCloser.java:6: error: package star.common does not exist
+import star.common.StarPlot;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainCloser.java:7: error: package star.vis does not exist
+import star.vis.Scene;
+               ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:5: error: package star.base.neo does not exist
+import star.base.neo.ClientServerObject;
+                    ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:6: error: package star.base.report does not exist
+import star.base.report.Monitor;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:7: error: package star.common does not exist
+import star.common.AbortFileStoppingCriterion;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:8: error: package star.common does not exist
+import star.common.GeometryObject;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:9: error: package star.common does not exist
+import star.common.Model;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:10: error: package star.common does not exist
+import star.common.MonitorNormalizeOption;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:11: error: package star.common does not exist
+import star.common.PhysicsContinuum;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:12: error: package star.common does not exist
+import star.common.Region;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:13: error: package star.common does not exist
+import star.common.ResidualMonitor;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:14: error: package star.common does not exist
+import star.common.Simulation;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:15: error: package star.common does not exist
+import star.common.SolverStoppingCriterion;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:16: error: package star.common does not exist
+import star.common.StepStoppingCriterion;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:17: error: package star.meshing does not exist
+import star.meshing.AutoMeshOperation;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:18: error: package star.meshing does not exist
+import star.meshing.MeshOperation;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:19: error: package star.meshing does not exist
+import star.meshing.PartCustomMeshControl;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:20: error: package star.meshing does not exist
+import star.meshing.SurfaceCustomMeshControl;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:21: error: package star.metrics does not exist
+import star.metrics.CellQualityRemediationModel;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:22: error: package star.prismmesher does not exist
+import star.prismmesher.PartsCustomPrismsOption;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:23: error: package star.prismmesher does not exist
+import star.prismmesher.PartsCustomizePrismMesh;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:24: error: package star.solidmesher does not exist
+import star.solidmesher.PartsCustomThinOption;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainDisabler.java:25: error: package star.solidmesher does not exist
+import star.solidmesher.PartsCustomizeThinMesh;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:5: error: package star.base.neo does not exist
+import star.base.neo.ClientServerObject;
+                    ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:6: error: package star.common does not exist
+import star.common.AbortFileStoppingCriterion;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:7: error: package star.common does not exist
+import star.common.Boundary;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:8: error: package star.common does not exist
+import star.common.ExpertInitManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:9: error: package star.common does not exist
+import star.common.ExpertInitOption;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:10: error: package star.common does not exist
+import star.common.GridSequencingInit;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:11: error: package star.common does not exist
+import star.common.ImplicitUnsteadyModel;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:12: error: package star.common does not exist
+import star.common.Model;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:13: error: package star.common does not exist
+import star.common.PhysicsContinuum;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:14: error: package star.common does not exist
+import star.common.PisoUnsteadyModel;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:15: error: package star.common does not exist
+import star.common.Simulation;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:16: error: package star.common does not exist
+import star.common.SolverStoppingCriterion;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:17: error: package star.common does not exist
+import star.common.SteadyModel;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:18: error: package star.common does not exist
+import star.common.StepStoppingCriterion;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:19: error: package star.coupledflow does not exist
+import star.coupledflow.CoupledImplicitSolver;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:20: error: package star.coupledflow does not exist
+import star.coupledflow.CourantNumberControlOption;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:21: error: package star.coupledflow does not exist
+import star.coupledflow.CourantNumberController;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:22: error: package star.coupledflow does not exist
+import star.coupledflow.ExpertDriverCourantNumberControl;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:23: error: package star.meshing does not exist
+import star.meshing.AutoMeshOperation;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:24: error: package star.meshing does not exist
+import star.meshing.CustomMeshControlManager;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:25: error: package star.meshing does not exist
+import star.meshing.CustomMeshControlValueManager;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:26: error: package star.meshing does not exist
+import star.meshing.PartsWakeRefinementValuesManager;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:27: error: package star.meshing does not exist
+import star.meshing.RelativeOrAbsoluteOption;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:28: error: package star.meshing does not exist
+import star.meshing.SurfaceCustomMeshControl;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:29: error: package star.metrics does not exist
+import star.metrics.CellQualityRemediationModel;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:30: error: package star.trimmer does not exist
+import star.trimmer.PartsGrowthRateOption;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:31: error: package star.trimmer does not exist
+import star.trimmer.PartsTrimmerWakeRefinementOption;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:32: error: package star.trimmer does not exist
+import star.trimmer.PartsTrimmerWakeRefinementSet;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:33: error: package star.trimmer does not exist
+import star.trimmer.WRTrimmerAnisotropicSize;
+                   ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainEnabler.java:34: error: package star.turbulence.synturb does not exist
+import star.turbulence.synturb.PseudoTurbulenceSpecOption;
+                              ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainOpener.java:4: error: package star.base.neo does not exist
+import star.base.neo.ClientServerObject;
+                    ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainOpener.java:5: error: package star.common does not exist
+import star.common.Simulation;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainOpener.java:6: error: package star.common does not exist
+import star.common.StarPlot;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainOpener.java:7: error: package star.vis does not exist
+import star.vis.Scene;
+               ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:8: error: package star.base.neo does not exist
+import star.base.neo.ClientServerObject;
+                    ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:9: error: package star.base.neo does not exist
+import star.base.neo.ClientServerObjectManager;
+                    ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:10: error: package star.base.neo does not exist
+import star.base.neo.NeoProperty;
+                    ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:11: error: package star.base.report does not exist
+import star.base.report.Monitor;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:12: error: package star.base.report does not exist
+import star.base.report.MonitorManager;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:13: error: package star.base.report does not exist
+import star.base.report.ReportManager;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:14: error: package star.base.report does not exist
+import star.base.report.ReportMonitor;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:15: error: package star.base.report does not exist
+import star.base.report.SingleFieldAnalysisMonitor;
+                       ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:16: error: package star.cadmodeler does not exist
+import star.cadmodeler.SolidModelManager;
+                      ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:17: error: package star.common does not exist
+import star.common.ContinuumManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:18: error: package star.common does not exist
+import star.common.FieldFunction;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:19: error: package star.common does not exist
+import star.common.FieldFunctionManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:20: error: package star.common does not exist
+import star.common.GeometryPartManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:21: error: package star.common does not exist
+import star.common.GlobalParameterManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:22: error: package star.common does not exist
+import star.common.LocalCoordinateSystemManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:23: error: package star.common does not exist
+import star.common.PlotManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:24: error: package star.common does not exist
+import star.common.Region;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:25: error: package star.common does not exist
+import star.common.RegionManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:26: error: package star.common does not exist
+import star.common.Simulation;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:27: error: package star.common does not exist
+import star.common.StarPlot;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:28: error: package star.common does not exist
+import star.common.Tag;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:29: error: package star.common does not exist
+import star.common.TagManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:30: error: package star.common does not exist
+import star.common.UpdateEventManager;
+                  ^
+/home/yuninw/codes/utilities/macroUtils/macroutils/src/macroutils/misc/MainRemover.java:31: error: package star.common does not exist
+import star.common.UserFieldFunction;
+                  ^
+100 errors
+only showing the first 100 errors, of 3555 total; use -Xmaxerrs if you would like to see more
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':macroutils:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 760ms
+1 actionable task: 1 executed

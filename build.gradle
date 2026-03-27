@@ -29,7 +29,9 @@ ext {
     buildDate = new java.text.SimpleDateFormat("MMdd").format(new Date())
     buildVersion = buildVersion()
     jarBaseName = "${project.name}_${buildVersion}_build_${buildDate}".toLowerCase()
-    libsFolder = file("${rootDir}/../libs_STAR-CCM+")
+    //libsFolder = file("${rootDir}/../libs_STAR-CCM+")
+    libsFolder = file("/home/yuninw/apps/starccm/starccm_2602/STAR-CCM+21.02.007/star/lib/java/platform/modules/ext")
+    //libsFolder = file("~/apps/starccm/starccm_2602/jdk/linux-x86_64/jdk21.0.8/lib/")
 }
 
 subprojects {
