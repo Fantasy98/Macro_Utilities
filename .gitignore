@@ -4,6 +4,7 @@ build/
 dist/
 jars/
 nbproject/
+run/
 build.xml
 manifest.mf
 
